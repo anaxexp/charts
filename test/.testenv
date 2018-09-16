@@ -1,5 +1,5 @@
 # The name of the Git remote to check against for changed charts
-REMOTE=rancher-charts
+REMOTE=anaxexp-charts
 
 # The name of the Git target branch
 TARGET_BRANCH=master

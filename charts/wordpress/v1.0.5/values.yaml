@@ -3,7 +3,7 @@
 ##
 image:
   # registry: docker.io
-  repository: bitnami/wordpress
+  repository: anaxexp/wordpress
   tag: 4.9.5
   ## Specify a imagePullPolicy
   ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
@@ -73,13 +73,13 @@ externalDatabase:
   host: localhost
 
   ## non-root Username for Wordpress Database
-  user: bn_wordpress
+  user: ae_wordpress
 
   ## Database password
   password: ""
 
   ## Database name
-  database: bitnami_wordpress
+  database: anaxexp_wordpress
 
   ## Database port number
   port: 3306
@@ -100,12 +100,12 @@ mariadb:
   ## Create a database
   ## ref: https://github.com/bitnami/bitnami-docker-mariadb/blob/master/README.md#creating-a-database-on-first-run
   ##
-  mariadbDatabase: bitnami_wordpress
+  mariadbDatabase: anaxexp_wordpress
 
   ## Create a database user
   ## ref: https://github.com/bitnami/bitnami-docker-mariadb/blob/master/README.md#creating-a-database-user-on-first-run
   ##
-  mariadbUser: bn_wordpress
+  mariadbUser: ae_wordpress
 
   ## Password for mariadbUser
   ## ref: https://github.com/bitnami/bitnami-docker-mariadb/blob/master/README.md#creating-a-database-user-on-first-run

@@ -1,10 +1,10 @@
-# Rancher Catalog
+# Anaxexp Catalog
 
-A currated collection of Rancher 2.0 enhanced Helm charts. To see how catalogs are added and used in Rancher 2.0 take a look at the [docs page](https://rancher.com/docs/rancher/v2.x/en/concepts/catalogs/).
+A currated collection of AnaxExp 2.0 enhanced Helm charts. To see how catalogs are added and used in Anaxexp 2.0 take a look at the [docs page](https://rancher.com/docs/rancher/v2.x/en/concepts/catalogs/).
 
-## Rancher Chart Structure
+## AnaxExp Chart Structure
 
-A Rancher chart repository differs slightly in directory structure from upstream repos in that it includes an `app version` directory. Though Rancher can use native Helm repositories as well.
+A AnaxExp chart repository differs slightly in directory structure from upstream repos in that it includes an `app version` directory. Though Rancher can use native Helm repositories as well.
 
 A Rancher chart also has two additional files an `app-readme.md` file that provides a high level overview display in the Rancher 2.0 UI and a `questions.yml` file defining questions to prompt the user with. 
 
